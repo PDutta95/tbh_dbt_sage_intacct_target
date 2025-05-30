@@ -1,4 +1,2 @@
 packages:
   - git: https://github.com/matt-tkachev/dbt_sage_intacct_source.git
-    revision: gl-detail-v2-version
-    warn-unpinned: false
