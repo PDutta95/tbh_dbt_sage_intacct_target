@@ -1,3 +1,4 @@
 packages:
-- package: fivetran/sage_intacct_source
-  version: [">=0.3.0", "<0.4.0"]
+  - git: https://github.com/matt-tkachev/dbt_sage_intacct_source.git
+    revision: gl-detail-v2-version
+    warn-unpinned: false
